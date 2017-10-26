@@ -41,7 +41,7 @@ $('#colorSketch').on('click', function() {
 
 $('#adjustSize').on('click', function promptMe(){
     $(".container").empty();
-    var gridSize = prompt("Please provide a Grid Size");
+    var gridSize = prompt("Please provide a Grid Size!(1-100)");
     $(function() {
         for (var x = 0; x < gridSize; x++) {
             for (var y = 0; y < gridSize; y++) {
